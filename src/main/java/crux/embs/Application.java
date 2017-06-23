@@ -42,7 +42,7 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 //     schemaGenerator.writeToFile(configuration.getSchemaFile());
-//       directoryProcessor.process();
+       directoryProcessor.process();
         fileLoader.load("/Users/avinash.palicharla/src/EMBS/work/03/csvgzip/GNM_CS2.DAT.0.csv.gz");
 
     }
